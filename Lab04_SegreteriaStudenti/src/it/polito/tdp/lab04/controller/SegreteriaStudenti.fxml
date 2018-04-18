@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane prefHeight="442.0" prefWidth="561.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polito.tdp.lab04.controller.SegreteriaStudentiController">
+<BorderPane prefHeight="442.0" prefWidth="561.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polito.tdp.lab04.controller.SegreteriaStudentiController">
    <top>
       <Label text="Lab3_Segreteria Studenti" BorderPane.alignment="CENTER">
          <BorderPane.margin>
@@ -50,7 +50,7 @@
                         <Insets left="10.0" />
                      </HBox.margin>
                   </TextField>
-                  <Button mnemonicParsing="false" onAction="#completaInfo" style="-fx-background-color: green;" text="V" textFill="#dee8dd">
+                  <Button fx:id="btnCompletaInfo" mnemonicParsing="false" onAction="#completaInfo" style="-fx-background-color: green;" text="V" textFill="#dee8dd">
                      <HBox.margin>
                         <Insets left="10.0" />
                      </HBox.margin>
